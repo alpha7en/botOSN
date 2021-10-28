@@ -2,6 +2,7 @@ import cv2.cv2 as cv2
 from PIL import Image
 import random
 import os
+#usi
 def doFace(name):
     main = Image.open(name)
     face_cascade = cv2.CascadeClassifier('stalin_haarcascade_frontalface_default.xml')
