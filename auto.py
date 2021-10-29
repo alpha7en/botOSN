@@ -244,11 +244,14 @@ def do(path_name):
                 blackFON.r(path_name, str(predlog + v2))
             # рифма или что то с глаголом
         else:
-            vib = random.randint(1, 3)
+            vib = random.randint(1, 7)
             if vib == 1:
                 predlog = random.choice(predlogs)
                 # синоним и предлог
                 ch.append(new[0][0])
+                ch1 = list(set(ch))
+                ch = ch1
+
                 v1 = random.choice(ch)
                 v2 = random.choice(ch)
                 i = 0
@@ -258,7 +261,8 @@ def do(path_name):
                 print(v1, v2)
                 blackFON.r(path_name, v1)
                 blackFON.r(path_name, str(predlog + v2))
-            elif (vib == 2) or (vib == 2):
+            elif (vib == 2) or (vib == 4) or (vib == 5) or (vib == 6) or (vib == 7):
+
                 predlog = random.choice(predlogs)
                 # синоним и предлог
                 ch.append(new[0][0])
@@ -269,6 +273,7 @@ def do(path_name):
                 else:
                     v2 = random.choice(x)
                 print('rifma  ' + str(v2) + '  ' + str(RIFMA[v1]))
+                print(ch)
                 blackFON.r(path_name, v1)
                 blackFON.r(path_name, str(predlog + v2))
             elif vib == 3:
