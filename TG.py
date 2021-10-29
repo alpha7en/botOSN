@@ -1,4 +1,5 @@
 import config
+import auto
 import ttt
 import szg
 import moshu_generator as mg
@@ -132,8 +133,18 @@ async def process_callback_c(callback_query: types.CallbackQuery):
                                reply_markup=kb.greet_kb)
         db.obr_set(callback_query.from_user.id, 1)
     elif code == '11':
-        await bot.send_message(callback_query.from_user.id, "введи коэффициенты поиска чем больше лицо на фото, тем больше коэффициент(любое число от 1 до 10, если совсем никакк пробуй 1.01 и через пробел другое уже целое, от 1 до 50) ")
+        await bot.send_message(callback_query.from_user.id,
+                               "введи коэффициенты поиска чем больше лицо на фото, тем больше коэффициент(любое число от 1 до 10, если совсем никакк пробуй 1.01 и через пробел другое уже целое, от 1 до 50) ")
         db.status_set(callback_query.from_user.id, 60)
+    elif code == '12':
+        auto.do(str(callback_query.from_user.id) + '.jpg')
+        f = open(str(callback_query.from_user.id) + '.jpg', "rb")
+        await bot.send_photo(callback_query.from_user.id, photo=f)
+        os.remove(str(callback_query.from_user.id) + '.jpg')
+        await bot.delete_message(callback_query.from_user.id, int(db.get_args(callback_query.from_user.id)[3]))
+        await bot.send_message(callback_query.from_user.id, 'как по мне полный рофл, а тебе как?',
+                               reply_markup=kb.greet_kb)
+        db.obr_set(callback_query.from_user.id, 1)
 
 
 

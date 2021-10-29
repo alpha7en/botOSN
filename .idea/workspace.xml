@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df6dc69c-ca39-49ca-976a-8b8669c19fcc" name="Default Changelist" comment="">
+    <list default="true" id="df6dc69c-ca39-49ca-976a-8b8669c19fcc" name="Default Changelist" comment="111">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TG.py" beforeDir="false" afterPath="$PROJECT_DIR$/TG.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TGBase.db" beforeDir="false" afterPath="$PROJECT_DIR$/TGBase.db" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto.py" beforeDir="false" afterPath="$PROJECT_DIR$/auto.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/auto_data/data/coco.txt" beforeDir="false" afterPath="$PROJECT_DIR$/auto_data/data/coco.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blackFON.py" beforeDir="false" afterPath="$PROJECT_DIR$/blackFON.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/keyboards.py" beforeDir="false" afterPath="$PROJECT_DIR$/keyboards.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,14 +40,58 @@
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\pashaner\Desktop\my-first-blog-master" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\pashaner\Desktop\my-first-blog-master\auto_data\weights" />
+      <recent name="C:\Users\pashaner\Desktop\my-first-blog-master\auto_data" />
       <recent name="C:\Users\pashaner\Desktop\my-first-blog-master" />
     </key>
   </component>
   <component name="RunManager" selected="Python.TG">
+    <configuration name="1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my-first-blog-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/auto_data" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auto_data/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="my-first-blog-master" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="TG" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="my-first-blog-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,28 +113,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="olimp" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="my-first-blog-master" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ochki" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ochki/olimp.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="stalin_mainusi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="auto" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="my-first-blog-master" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,28 +125,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/stalin_mainusi.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="stalin_search_face" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="my-first-blog-master" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/stalin" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\pashaner\Desktop\my-first-blog-master\stalin_search_face.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/auto.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -149,10 +158,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.TG" />
+        <item itemvalue="Python.auto" />
+        <item itemvalue="Python.1" />
+        <item itemvalue="Python.1 (1)" />
         <item itemvalue="Python.ttt" />
-        <item itemvalue="Python.olimp" />
-        <item itemvalue="Python.stalin_mainusi" />
-        <item itemvalue="Python.stalin_search_face" />
       </list>
     </recent_temporary>
   </component>
@@ -184,97 +193,152 @@
       <option name="project" value="LOCAL" />
       <updated>1635450551753</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="3test">
+      <created>1635450600525</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1635450600525</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2test">
+      <created>1635450659701</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1635450659701</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2test">
+      <created>1635450703376</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1635450703376</updated>
+    </task>
+    <task id="LOCAL-00006" summary="111">
+      <created>1635451022213</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1635451022213</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
+    <MESSAGE value="3test" />
     <MESSAGE value="2test" />
-    <option name="LAST_COMMIT_MESSAGE" value="2test" />
+    <MESSAGE value="111" />
+    <option name="LAST_COMMIT_MESSAGE" value="111" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="72" key="#Intentions" timestamp="1635316443198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="361" y="72" key="#Intentions/0.0.1536.824@0.0.1536.824" timestamp="1635316443198" />
-    <state x="122" y="49" key="#Notifications" timestamp="1635450051607">
+    <state x="122" y="49" key="#Notifications" timestamp="1635450774001">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="122" y="49" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1635450051607" />
+    <state x="122" y="49" key="#Notifications/0.0.1536.824@0.0.1536.824" timestamp="1635450774001" />
     <state x="524" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1635311920451">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="524" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1536.824@0.0.1536.824" timestamp="1635311920451" />
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1635319704816">
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1635498952196">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1635319704816" />
-    <state x="424" y="5" key="CommitChangelistDialog2" timestamp="1635450659277">
+    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1635498952196" />
+    <state x="424" y="5" key="CommitChangelistDialog2" timestamp="1635489584789">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1635450659277" />
+    <state x="424" y="5" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1635489584789" />
     <state x="299" y="68" key="DBNavigator.ProjectSettingsDialog" timestamp="1635427784440">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="299" y="68" key="DBNavigator.ProjectSettingsDialog/0.0.1536.824@0.0.1536.824" timestamp="1635427784440" />
-    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1635449522196">
+    <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1635450841601">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1635449522196" />
+    <state x="549" y="168" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1635450841601" />
     <state x="379" y="284" key="Github.ShareDialog" timestamp="1635450223132">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="379" y="284" key="Github.ShareDialog/0.0.1536.824@0.0.1536.824" timestamp="1635450223132" />
-    <state width="1515" height="103" key="GridCell.Tab.0.bottom" timestamp="1635450602621">
+    <state width="1515" height="167" key="GridCell.Tab.0.bottom" timestamp="1635509659174">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="103" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1635450602621" />
-    <state width="1515" height="103" key="GridCell.Tab.0.center" timestamp="1635450602620">
+    <state width="1515" height="167" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1635509659174" />
+    <state width="1515" height="167" key="GridCell.Tab.0.center" timestamp="1635509659174">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="103" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1635450602620" />
-    <state width="1515" height="103" key="GridCell.Tab.0.left" timestamp="1635450602620">
+    <state width="1515" height="167" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1635509659174" />
+    <state width="1515" height="167" key="GridCell.Tab.0.left" timestamp="1635509659174">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="103" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1635450602620" />
-    <state width="1515" height="103" key="GridCell.Tab.0.right" timestamp="1635450602620">
+    <state width="1515" height="167" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1635509659174" />
+    <state width="1515" height="167" key="GridCell.Tab.0.right" timestamp="1635509659174">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="103" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1635450602620" />
-    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1635367687180">
+    <state width="1515" height="167" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1635509659174" />
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom" timestamp="1635500637807">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1635367687180" />
-    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1635367687180">
+    <state width="1515" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1635500637807" />
+    <state width="1515" height="261" key="GridCell.Tab.1.center" timestamp="1635500637807">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1635367687180" />
-    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1635367687180">
+    <state width="1515" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1635500637807" />
+    <state width="1515" height="261" key="GridCell.Tab.1.left" timestamp="1635500637807">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1635367687180" />
-    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1635367687180">
+    <state width="1515" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1635500637807" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right" timestamp="1635500637807">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1635367687180" />
+    <state width="1515" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1635500637807" />
     <state x="277" y="56" key="SettingsEditor" timestamp="1635449536415">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1635449536415" />
-    <state x="122" y="123" key="Vcs.Push.Dialog.v2" timestamp="1635450030469">
+    <state x="122" y="123" key="Vcs.Push.Dialog.v2" timestamp="1635456309292">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="122" y="123" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1635450030469" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1635428499186">
+    <state x="122" y="123" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1635456309292" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1635489377459">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1635428499186" />
-    <state x="340" y="307" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1635450500707">
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1635489377459" />
+    <state x="340" y="307" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1635450749831">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="340" y="307" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1635450500707" />
-    <state x="471" y="205" key="git4idea.merge.GitPullDialog" timestamp="1635449563490">
+    <state x="340" y="307" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1635450749831" />
+    <state x="471" y="205" key="git4idea.merge.GitPullDialog" timestamp="1635450899216">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="471" y="205" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1635449563490" />
+    <state x="471" y="205" key="git4idea.merge.GitPullDialog/0.0.1536.824@0.0.1536.824" timestamp="1635450899216" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

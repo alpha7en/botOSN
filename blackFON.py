@@ -7,7 +7,7 @@ def r(name, text):
     osn = osn.convert("RGBA")
     os.remove(name)
     width, height = osn.size
-    print(width, height)
+    # print(width, height)
     size = min(int((height*0.7)), int((width*1.8)/(len(text))))
     img = Image.new("RGBA", (int(width * 1.4), int(height * 1.7)))
 
