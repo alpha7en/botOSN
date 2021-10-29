@@ -68,7 +68,7 @@ sinonims = {'человек': ['личность', 'мужчина', 'женщи
             'часы': ['часы'], 'ваза': ['ваза'], 'ножницы': ['ножницы'], 'плюшевый мишка': ['плюшевый мишка'],
             'фен': ['фен'], 'зубная щетка': ['зубная щеткa']}
 
-predlogs = ('нет блин, ', 'нет блин, ', 'нет блин, ', 'а может ', 'а может', 'ха ха ', 'хотя нет,', 'оппа ')
+predlogs = ('нет блин, ', 'нет блин, ', 'нет блин, ', 'а может ', 'а может ', 'ха ха ', 'хотя нет,', 'оппа ')
 
 RIFMA = {'человек': ('хай-тек', 'саундтрек', 'чебурек', 'артек', 'дровосек'),
          'личность': ('античность', 'вторичность', 'эластичность'), 'мужчина': ('дедовщина', 'урина', 'ирина'),
@@ -229,6 +229,7 @@ def do(path_name):
     print(new)
     if len(new) == 1:
         ch = sinonims[new[0][0]]
+
         if ch[0] == new[0]:
             vib = random.randint(1, 3)
             if vib == 1:
@@ -243,34 +244,45 @@ def do(path_name):
                 blackFON.r(path_name, str(predlog + v2))
             # рифма или что то с глаголом
         else:
-            vib = random.randint(1, 2)
+            vib = random.randint(1, 3)
             if vib == 1:
                 predlog = random.choice(predlogs)
                 # синоним и предлог
                 ch.append(new[0][0])
                 v1 = random.choice(ch)
                 v2 = random.choice(ch)
-                while v1 == v2:
-                    print(ch)
-                    V2 = random.choice(ch)
+                i = 0
+                while (v1 == v2) and i < 10:
+                    v2 = random.choice(ch)
+                    i += 1
+                print(v1, v2)
                 blackFON.r(path_name, v1)
                 blackFON.r(path_name, str(predlog + v2))
             elif (vib == 2) or (vib == 2):
                 predlog = random.choice(predlogs)
                 # синоним и предлог
-
-                v2 = random.choice(RIFMA[new[0][0]])
-
-                blackFON.r(path_name, new[0][0])
+                ch.append(new[0][0])
+                v1 = random.choice(ch)
+                x = RIFMA[v1]
+                if (type(x) == str):
+                    v2 = x
+                else:
+                    v2 = random.choice(x)
+                print('rifma  ' + str(v2) + '  ' + str(RIFMA[v1]))
+                blackFON.r(path_name, v1)
                 blackFON.r(path_name, str(predlog + v2))
             elif vib == 3:
-                # глагол
-                pass
+                vibors = ('ну да, ', 'ну как бы просто ', 'это лишь ', 'все ещё ')
+                ch.append(new[0][0])
+                v1 = random.choice(ch)
+                blackFON.r(path_name, v1)
+                v = random.choice(vibors)
+                blackFON.r(path_name, str(v + v1))
 
     if len(new) > 1:
-        vib1 = random.randint(1, 4)
+        vib1 = random.randint(1, 5)
         if vib1 == 1 or 2:
-            vib = random.randint(1, 1)
+            vib = random.randint(1, 2)
             if vib == 1:
                 v = random.choice(new[1:3])[0]
                 ch = sinonims[v]
@@ -279,19 +291,23 @@ def do(path_name):
                 ch.append(v)
                 v1 = random.choice(ch)
                 v2 = random.choice(ch)
-                while v1 == v2:
+                i = 0
+                while (v1 == v2) and i < 10:
                     v2 = random.choice(ch)
+                    i += 1
                 blackFON.r(path_name, v1)
                 blackFON.r(path_name, str(predlog + v2))
             elif vib == 2:
+                ch = sinonims[new[0][0]]
                 predlog = random.choice(predlogs)
                 # синоним и предлог
                 ch.append(new[0][0])
                 v1 = random.choice(ch)
                 v2 = random.choice(ch)
+                i = 0
                 while v1 == v2:
-                    print(ch)
-                    V2 = random.choice(ch)
+                    i += 1
+                    v2 = random.choice(ch)
                 blackFON.r(path_name, v1)
                 blackFON.r(path_name, str(predlog + v2))
 
@@ -315,5 +331,17 @@ def do(path_name):
                 ch.append(i[0])
                 vib1 = random.choice(ch)
                 blackFON.r(path_name, vib1)
+        elif vib == 5:
+            xx = random.randint(0, len(new))
+            predlog = random.choice(predlogs)
+            # синоним и предлог
+            x = RIFMA[new[xx][0]]
+            if (type(x) == str):
+                v2 = x
+            else:
+                v2 = random.choice(x)
+            print('rifma  ' + str(v2) + '  ' + str(RIFMA[new[xx][0]]))
+            blackFON.r(path_name, new[xx][0])
+            blackFON.r(path_name, str(predlog + v2))
 
 # do("test.jpg")
